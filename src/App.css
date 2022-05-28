@@ -1,0 +1,10 @@
+body {
+  background-color: #181a1b;
+  color: #ffffff
+}
+
+#insert-tasks {
+  display: flex;
+  justify-content: center;  
+  padding: 0.5rem;  
+}
