@@ -6,5 +6,21 @@ body {
 #insert-tasks {
   display: flex;
   justify-content: center;  
-  padding: 0.5rem;  
+  padding-top: 0.8rem;
+}
+
+button {
+  cursor: pointer;
+  font-size: 0.6rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+@media only screen and (max-width: 600px) {
+ body{
+   font-size: 12px;
+  }
+  #insert-tasks {
+    width: 100%;  
+  } 
 }

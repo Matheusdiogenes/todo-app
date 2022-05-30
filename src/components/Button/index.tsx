@@ -7,6 +7,6 @@ interface IButtonProps {
 
 export function Button(props: IButtonProps) {
   return (
-    <button type='button' onClick={props.OnClick}>{props.name}</button>
+    <button className='Button' type='button' onClick={props.OnClick}>{props.name}</button>
   )
 }

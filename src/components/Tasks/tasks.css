@@ -2,4 +2,51 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 1rem;
 }
+
+.task {   
+  padding: 0.4rem;
+  margin: 0.4rem;
+  width: 40%;
+  border: solid 0.1rem brown;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-task {
+  font-size: 0.8rem;
+  background-color: transparent;
+  color: white;
+}
+
+.delete-task:hover {
+  color: red;
+}
+
+.none-task {  
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.task-done {
+  color: greenyellow;
+  opacity: 50%;
+  text-decoration: line-through;
+}
+
+@media only screen and (max-width: 600px) {
+  .tasks {
+    padding-top: 1rem;
+  }
+  .task {   
+    padding: 0.4rem;
+    margin: 0.4rem;
+    width: 70%;
+    font-size: 1rem;
+  }  
+  .none-task {  
+    font-size: 1rem;
+  }
+ }
