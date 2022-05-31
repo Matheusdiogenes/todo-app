@@ -10,11 +10,11 @@ Lista de tarefas com ReactJS e CSS
 - [NodeJs](https://nodejs.org/en/)
 
 ## RUN
-Para executar o projeto é necessario ter o NodeJs em sua máquina.
+Para executar o projeto é necessário ter o NodeJs em sua máquina.
 
 1. Faça o download ou clone do repositório
-2. Entre no direwtório: `cd todo-app`
-3. Execute o comando para instalar as dependencias: `npm install`
+2. Entre no diretório: `cd todo-app`
+3. Execute o comando para instalar as dependências: `npm install`
 4. Rode o projeto com o comando `npm run dev`
 
 Feito isso, você deve obter esse resultado:
