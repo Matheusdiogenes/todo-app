@@ -12,7 +12,7 @@
   border: solid 0.1rem brown;
   border-radius: 0.5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;  
 }
 
 .delete-task {

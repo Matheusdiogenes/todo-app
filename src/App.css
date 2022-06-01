@@ -1,12 +1,12 @@
 body {
   background-color: #181a1b;
-  color: #ffffff
+  color: #ffffff;  
 }
 
 #insert-tasks {
   display: flex;
   justify-content: center;  
-  padding-top: 0.8rem;
+  padding-top: 0.8rem;  
 }
 
 button {

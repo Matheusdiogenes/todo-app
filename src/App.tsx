@@ -8,11 +8,13 @@ function App() {
   const [nameTask, setNameTask] = useState('')
   const [id, setID] = useState(0)
 
-  const [tasks, setTasks] = useState<{
+  type TaskProps = {
     id: number,
     name: string,
     status: boolean
-  }[]>([])
+  }
+
+  const [tasks, setTasks] = useState<TaskProps[]>([])
 
   function insertTask() {    
     const newTask = { id: id, name: nameTask, status: false }
@@ -26,8 +28,10 @@ function App() {
     setTasks(() => newArray)    
   }
 
-  function doneTask(e: any){
-    const newArray = tasks.map( task => task.id == e.target.value ? { id: task.id, name: task.name, status: !task.status } : task)
+  function doneTask(e: React.ChangeEvent<HTMLInputElement>){
+    const newArray = tasks.map( task => {
+      return task.id == parseInt(e.target.value) ? { id: task.id, name: task.name, status: !task.status } : task
+    })
     setTasks(() => newArray)    
   }
 
